@@ -1,0 +1,147 @@
+body {
+    margin: 0;
+
+}
+
+header {
+    position: fixed;
+    z-index: 1;
+    width: 100%;
+    background-color: rgba(255, 255, 255, 1);
+}
+
+nav {
+    display: flex;
+
+    justify-content: space-between;
+    color: rgb(0, 0, 0);
+    font: 25px Arial, Helvetica, sans-serif;
+    ;
+}
+
+.calmbut {
+    justify-content: center;
+    align-items: center;
+    width: 250px;
+    height: 50px;
+    background: linear-gradient(rgb(36, 119, 170) 0%, rgb(100, 97, 224) 100%);
+    left: 40%;
+    color: white;
+    position: relative;
+    font: 25px Arial,
+        Helvetica,
+        sans-serif;
+    border-radius: 30px;
+    border: none;
+}
+
+.table {
+    display: flex;
+    width: 100%;
+    height: auto;
+    justify-content: space-evenly;
+    margin-bottom: 50px;
+}
+
+.intable {
+    padding: 10px;
+    margin: 30px;
+    width: 300px;
+    border: 2px solid rgb(8, 198, 232);
+    border-radius: 20px;
+}
+
+.intable h1 {
+    font: 35px Arial, Helvetica, sans-serif;
+}
+
+.intable p {
+    font: 20px Arial, Helvetica, sans-serif;
+}
+
+section {
+    display: block;
+}
+
+.backimg {
+    height: 480px;
+    position: relative;
+}
+
+ul img {
+    padding: 7px;
+}
+
+.left li {
+    float: right;
+    list-style: none;
+    padding: 7px;
+    margin-left: 20px;
+    padding-left: 20px;
+}
+
+.right {
+    margin-left: 7px;
+}
+
+.right li {
+    float: right;
+    list-style: none;
+    padding: 7px;
+    margin-right: 20px;
+    padding-left: 20px;
+}
+
+.table2 {
+    display: flex;
+    width: 100%;
+    height: auto;
+    justify-content: space-evenly;
+    margin-bottom: 50px;
+}
+
+.intable2 {
+    padding: 10px;
+    margin: 30px;
+    width: 300px;
+    border: 2px solid rgb(8, 198, 232);
+    border-radius: 20px;
+    background: linear-gradient(rgb(36, 119, 170) 0%, rgb(100, 97, 224) 100%);
+    color: aliceblue;
+}
+
+.intable2 h1 {
+    font: 35px Arial, Helvetica, sans-serif;
+}
+
+.intable2 p {
+    font: 20px Arial, Helvetica, sans-serif;
+}
+
+footer {
+    color: white;
+    background-color: black;
+    width: 100%;
+    height: 500px;
+
+}
+
+.cont {
+    display: flex;
+    padding: 20px;
+    margin: 50px;
+}
+
+.incont {
+    padding: 20px;
+    margin: 50px;
+}
+
+.incont li {
+    list-style-type: none;
+}
+
+.rights {
+    text-align: center;
+    margin-bottom: 30px;
+}
